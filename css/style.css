@@ -1,0 +1,189 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+nav{
+	background:#808080;/* #0082e6 ,#2F4F4F,#708090,#808080*//*  */
+	height: 80px;
+	width: 100%;
+	position: fixed;
+
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+.nav nav ul{
+	float: right;
+	margin-right: 20px;
+}
+.nav nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+.nav nav ul li a{
+	color: white;
+	font-size: 18px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: #B0C4DE;
+	transition: 0.5s;
+}
+img{
+	width: 100%;
+	height: 100vh; 
+}
+.text_effects{
+	text-shadow: 2px 2px 2px blue;
+	transition: transform 2s;
+}
+.text_effects:hover{
+	transform: rotate(360deg);
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: white;
+}
+/* create form */
+.container{
+	width: 100%;
+	height: 100vh;
+	background: rgba(248,248,255);/* 187 187 245 */
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.card{
+	width: 350px;
+	height: 450px;
+	margin-top: 120px;
+	box-shadow: 0 0 40px 15px rgba(0, 0, 0, 0.28);
+	border-radius: 35px;
+	
+}
+.userimg {
+	width: 110px;
+	height: 110px;
+	border-radius: 50px;
+	margin-top: -100px;
+	margin-left: 70px;
+	margin-bottom:20px;
+}
+.inner-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.card-front{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: linear-gradient(rgb(0,0,100,0.8),rgba(188,143,143,0.5)),url('../images/user5.jpg');
+	padding: 55px;
+	box-sizing: border-box;
+	border-radius: 35px;
+}	
+.card h2{
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 30px;
+} 
+.input-box{
+	width: 100%;
+	background: transparent;
+	border: 1px solid #fff;
+	margin: 9px 0px;/* -19px */
+	height: 32px;
+	border-radius: 20px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	outline: none;
+	text-align: center;
+	color: #fff;
+}
+::placeholder{
+	color: #fff;
+	font-size: 13px;
+}
+button{
+	width: 50%;
+	background: transparent;
+	border: 1px solid #fff;
+	margin: 25px 55px 10px;
+	height: 32px;
+	font-size: 15px;
+	border-radius: 15px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+button:hover{
+	background: #FFF8DC;
+	transition: 0.5s;
+	color: #000;
+
+}
+/* Transaction.php */
+.heading{
+	font-size: 36px;
+	padding: 10% 40%;
+}
+.outerclass{
+	width: 100%;
+	height: 100vh;
+	background: rgba(2,1,26);/* 187 187 245 */
+}
+table{
+	margin:-6% 25%;
+}
+.row th{
+	font-size: 25px;
+}
+.row th,td{
+	padding: 15px 50px;
+}
+/* input box after table */
+
+/* .owner{
+	box-sizing: border-box;
+	margin-top:40%;
+	padding-right:50px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
